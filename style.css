@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#canvas{
+  background-color: blue;
+}
+
+.wrap{
+  position: fixed;
+  left:0;
+  bottom:0;
+}
+
+.wrap.active > #paint{
+  display: none;
+}
+
+.wrap.active > #paint{
+  display: inline-block;
+}
+
+.wrap.active > #eraser{
+  display: none;
+}
